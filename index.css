@@ -1,0 +1,52 @@
+body {
+  font-family: Amatic SC;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  margin-top: 20px;
+}
+
+.title-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 3em;
+  margin-bottom:2px;
+  text-align: center;
+}
+
+.second-title {
+  font-size: 1em;
+  margin-top:2px;
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+}
+
+.project-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  margin: 50px 75px 75px 50px;
+  transition: all 1s;
+}
+
+.project-img:hover {
+  transform: scale(1.2);
+}
